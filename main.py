@@ -4,7 +4,7 @@ import os
 from PIL import Image
 
 INSTAGRAM_USERNAME = os.environ["INSTAGRAM_USERNAME"]
-INSTAGRAM_PW = os.environ["INSTAGRAM_PW "]
+INSTAGRAM_PW = os.environ["INSTAGRAM_PW"]
 
 cl = Client()
 
