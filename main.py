@@ -3,8 +3,8 @@ import moviepy.editor as mp
 import os
 from PIL import Image
 
-INSTAGRAM_USERNAME = os.environ["instagram_username"]
-INSTAGRAM_PW = os.environ["instagram_pw"]
+INSTAGRAM_USERNAME = os.environ["INSTAGRAM_USERNAME"]
+INSTAGRAM_PW = os.environ["INSTAGRAM_PW "]
 
 cl = Client()
 
